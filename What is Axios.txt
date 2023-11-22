@@ -1,0 +1,6 @@
+What is Axios?
+
+What is Axios?
+Axios is lightweight package and use to make HTTP requests in Any Javascript Library like React, Angular or Vue. Axios makes it easy to send asynchronous HTTP requests to REST endpoints and perform CRUD operations. If you use Fetch method in Javascript, Axios is the “Easy to use” Version of Fetch.
+
+

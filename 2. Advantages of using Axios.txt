@@ -1,0 +1,17 @@
+2. Advantages of using Axios?
+
+Advantages of using Axios
+Axios by default Work in JSON format.So no more JSON parsing.
+
+Make all types of HTTP requests (GET, POST, PUT, DELETE)
+
+
+How to install Axios in React App
+Like any other npm package, you have to simply install the Axios package in your React Application and import Axios from the Axios package.
+
+
+Install Axios
+
+npm install axios
+or
+yarn add axios
