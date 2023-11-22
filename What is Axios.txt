@@ -1,6 +1,42 @@
 What is Axios?
+Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase). On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests.
 
-What is Axios?
-Axios is lightweight package and use to make HTTP requests in Any Javascript Library like React, Angular or Vue. Axios makes it easy to send asynchronous HTTP requests to REST endpoints and perform CRUD operations. If you use Fetch method in Javascript, Axios is the “Easy to use” Version of Fetch.
+Features
+Make XMLHttpRequests from the browser
+Make http requests from node.js
+Supports the Promise API
+Intercept request and response
+Transform request and response data
+Cancel requests
+Timeouts
+Query parameters serialization with support for nested entries
+Automatic request body serialization to:
+JSON (application/json)
+Multipart / FormData (multipart/form-data)
+URL encoded form (application/x-www-form-urlencoded)
+Posting HTML forms as JSON
+Automatic JSON data handling in response
+Progress capturing for browsers and node.js with extra info (speed rate, remaining time)
+Setting bandwidth limits for node.js
+Compatible with spec-compliant FormData and Blob (including node.js)
+Client side support for protecting against XSRF
+Installing
+Using npm:
 
+$ npm install axios
+Using bower:
 
+$ bower install axios
+Using yarn:
+
+$ yarn add axios
+Using jsDelivr CDN:
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+Using unpkg CDN:
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+Prebuilt CommonJS modules for direct importing with require (if your module bundler failed to resolve them automatically)
+
+const axios = require('axios/dist/browser/axios.cjs'); // browser
+const axios = require('axios/dist/node/axios.cjs'); // node
